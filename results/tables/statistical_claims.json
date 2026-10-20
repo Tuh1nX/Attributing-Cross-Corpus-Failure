@@ -1,0 +1,9 @@
+{
+  "n_common_seeds": 5,
+  "n_models_protocol_dominant_ci_excludes_zero": 7,
+  "n_models_content_dominant_ci_excludes_zero": 1,
+  "n_remedies_with_significant_selectivity_holm": 0,
+  "remedies_with_significant_selectivity": [],
+  "leaderboard_kendall_tau_mean": 0.7555555555555555,
+  "leaderboard_kendall_tau_permutation_p": 0.0007999200079992001
+}

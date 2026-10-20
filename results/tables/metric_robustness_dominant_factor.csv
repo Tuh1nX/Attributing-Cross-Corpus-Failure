@@ -1,0 +1,11 @@
+model,macro_f1,f1_pos,balanced_accuracy,auroc,auprc,ece
+CORAL,protocol,protocol,protocol,protocol,protocol,protocol
+DANN,protocol,protocol,protocol,protocol,protocol,protocol
+ERM,protocol,protocol,protocol,protocol,protocol,protocol
+ERM_BANGLABERT,protocol,protocol,protocol,protocol,protocol,protocol
+ERM_MDEBERTA_V3,protocol,protocol,protocol,protocol,protocol,protocol
+LLM_FEWSHOT,protocol,content,protocol,content,content,protocol
+LLM_ZEROSHOT,content,content,content,content,content,content
+MAJORITY,content,content,content,content,content,protocol
+PROTOCOL_CORRECTED,protocol,protocol,protocol,protocol,protocol,protocol
+TFIDF_LOGREG,protocol,protocol,protocol,protocol,protocol,protocol

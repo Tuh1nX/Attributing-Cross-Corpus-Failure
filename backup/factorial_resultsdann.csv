@@ -1,0 +1,2 @@
+run_id,run_name,model,seed,content_on,protocol_on,best_epoch,n_train,n_test,decision_threshold,macro_f1,f1_pos,balanced_accuracy,ece,auroc,auprc
+c923a2aa33c46e90,DANN_c0_p1_s42,DANN,42,0,1,3,37390,10197,0.4715235233306885,0.9117114255863435,0.9161531279178338,0.9112515681809256,0.09004451306473774,0.9613292937352087,0.9585285199527266

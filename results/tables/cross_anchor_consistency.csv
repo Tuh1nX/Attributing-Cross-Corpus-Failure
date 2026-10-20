@@ -1,0 +1,8 @@
+anchor_run,model,phi_content_mean,phi_content_excludes_zero,phi_protocol_mean,phi_protocol_excludes_zero,pattern_holds
+primary_anchor_original_6,CORAL,-0.0008744358000000064,False,0.01816721379999998,True,True
+primary_anchor_original_6,DANN,0.0003032733999999815,False,0.01902060379999999,True,True
+primary_anchor_original_6,ERM,0.0016735899000000054,True,0.019396757899999985,True,True
+primary_anchor_original_6,MAJORITY,0.0,False,0.0,False,False
+primary_anchor_original_6,PROTOCOL_CORRECTED,0.00039006329999999865,False,0.01993243309999999,True,True
+primary_anchor_original_6,TFIDF_LOGREG,0.0007810137000000105,False,0.019030163700000012,True,True
+primary_anchor_new_arms,LLM_FEWSHOT,-0.0036038373999999983,True,0.001495376599999998,False,False

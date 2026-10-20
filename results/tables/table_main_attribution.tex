@@ -1,0 +1,16 @@
+\begin{tabular}{llcccc}
+\toprule
+Model & Family & $\phi_{\text{content}}$ & $\phi_{\text{protocol}}$ & Total drop & Interaction \\
+\midrule
+CORAL & Fine-tuned encoder & -0.1 [-0.3, +0.1] & +1.8 [+1.7, +1.9] & +1.7 [+1.5, +1.9] & -0.3 [-0.5, -0.2] \\
+DANN & Fine-tuned encoder & +0.0 [-0.1, +0.2] & +1.9 [+1.7, +2.1] & +1.9 [+1.7, +2.2] & +0.0 [-0.2, +0.3] \\
+ERM & Fine-tuned encoder & +0.2 [+0.1, +0.3] & +1.9 [+1.8, +2.1] & +2.1 [+1.9, +2.3] & -0.0 [-0.2, +0.2] \\
+ERM\_BANGLABERT & Fine-tuned encoder & +0.0 [-0.4, +0.2] & +1.9 [+1.7, +2.0] & +1.9 [+1.5, +2.2] & +0.0 [-0.1, +0.1] \\
+ERM\_MDEBERTA\_V3 & Fine-tuned encoder & -0.0 [-0.1, +0.0] & +2.1 [+2.0, +2.2] & +2.0 [+2.0, +2.2] & +0.0 [-0.2, +0.2] \\
+PROTOCOL\_CORRECTED & Fine-tuned encoder & +0.0 [-0.1, +0.2] & +2.0 [+1.7, +2.2] & +2.0 [+1.7, +2.3] & +0.1 [-0.2, +0.3] \\
+TFIDF\_LOGREG & Lexical (TF-IDF) & +0.1 [-0.4, +0.6] & +1.9 [+1.8, +2.0] & +2.0 [+1.6, +2.4] & -0.1 [-0.4, +0.0] \\
+MAJORITY & Majority baseline & +0.0 [+0.0, +0.0] & +0.0 [+0.0, +0.0] & +0.0 [+0.0, +0.0] & +0.0 [+0.0, +0.0] \\
+LLM\_FEWSHOT & Open LLM (Qwen) & -0.4 [-0.6, -0.2] & +0.1 [-2.8, +3.5] & -0.2 [-3.4, +3.3] & +0.1 [-0.3, +0.6] \\
+LLM\_ZEROSHOT & Open LLM (Qwen) & +0.1 [+0.0, +0.1] & +0.0 [+0.0, +0.0] & +0.1 [+0.0, +0.1] & +0.0 [+0.0, +0.0] \\
+\bottomrule
+\end{tabular}

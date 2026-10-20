@@ -1,0 +1,3 @@
+model,n_seeds,mean_protocol_minus_content,ci_low,ci_high,seeds_protocol_gt_content,cohen_dz,p_diff,p_phi_protocol_ne_0,p_phi_content_ne_0,min_attainable_p,p_diff_holm,p_phi_protocol_ne_0_holm,p_phi_content_ne_0_holm
+MAJORITY,20,0.0,0.0,0.0,0,,1.0,1.0,1.0,0.0,1.0,1.0,1.0
+TFIDF_LOGREG,20,0.019562474896690277,0.017242010967630096,0.021784608747087743,20,3.650930579772059,1.9073486328125e-06,1.9073486328125e-06,0.07000732421875,0.0,3.814697265625e-06,3.814697265625e-06,0.1400146484375

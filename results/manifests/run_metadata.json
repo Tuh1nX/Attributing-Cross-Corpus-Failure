@@ -1,0 +1,52 @@
+{
+  "run_id": "c923a2aa33c46e90",
+  "python": "3.11.9 | packaged by Anaconda, Inc. | (main, Apr 19 2024, 16:40:41) [MSC v.1916 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26100-SP0",
+  "torch": "2.11.0+cpu",
+  "cuda": false,
+  "device": "cpu",
+  "config": {
+    "backbone": "xlm-roberta-base",
+    "max_length": 128,
+    "seeds": [
+      13,
+      42,
+      2024,
+      3407,
+      9001
+    ],
+    "factors": [
+      "content",
+      "protocol"
+    ],
+    "models": [
+      "MAJORITY",
+      "TFIDF_LOGREG",
+      "ERM",
+      "DANN",
+      "CORAL",
+      "PROTOCOL_CORRECTED"
+    ],
+    "train_frac": 0.55,
+    "val_frac": 0.15,
+    "adapt_frac": 0.1,
+    "test_frac": 0.15,
+    "content_strength": 2.0,
+    "content_target_topics": [
+      "Religious",
+      "Geopolitical",
+      "Gender abusive"
+    ],
+    "protocol_transition": [
+      [
+        0.9,
+        0.1
+      ],
+      [
+        0.2,
+        0.8
+      ]
+    ],
+    "epochs": 4
+  }
+}

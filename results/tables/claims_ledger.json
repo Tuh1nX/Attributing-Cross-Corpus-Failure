@@ -1,0 +1,10 @@
+{
+  "n_models": 10,
+  "n_models_protocol_dominant_macroF1": 8,
+  "n_models_protocol_CI_excludes_zero": 7,
+  "metric_stable_dominant_factor_models": 8,
+  "leaderboard_kendall_tau_mean": 0.7555555555555555,
+  "negative_control_all_passed": true,
+  "encoder_mean_phi_content": 0.00022973041666666432,
+  "encoder_mean_phi_protocol": 0.01932683698333333
+}
