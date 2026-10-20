@@ -13,7 +13,7 @@
 
 <br>
 
-<img width="942" alt="ShiftLens pipeline" src="https://github.com/user-attachments/assets/5b317371-85a0-4f14-8bfc-dfa2ff4367de" />
+<img width="1033" height="672" alt="image" src="https://github.com/user-attachments/assets/9a2c0c2f-bdea-46e7-abc8-a354f7364527" />
 
 <sub><i>Pipeline: one base corpus → declared content and protocol operators → 2×2 factorial → 10 model arms → exact Shapley attribution</i></sub>
 
@@ -37,7 +37,7 @@ Every cell of the 2×2 design is measured by retraining, and the Macro-F1 drop i
 > `T` is declared by us as a stress test. It is **not** an estimate of real annotator noise.
 
 <div align="center">
-<img width="6870" alt="Attribution map" src="https://github.com/user-attachments/assets/26f01e37-43ee-4ae1-a5dd-8ff5b7e33e48" />
+<img width="6870" height="3210" alt="fig_attribution_map" src="https://github.com/user-attachments/assets/f98b415a-86ec-450a-a251-7875710447d9" />
 <br><sub><i>Per-arm attribution: content (x) vs protocol (y). Points above the diagonal are protocol-dominated.</i></sub>
 </div>
 
@@ -79,24 +79,24 @@ Primary metric: **Macro-F1**. Also reported: F1-positive, balanced accuracy, AUR
 <br>
 <div align="center">
 
-<img width="4281" alt="Factorial Macro-F1" src="https://github.com/user-attachments/assets/3b7795cf-32f9-4ed5-b305-d21540a02597" />
+<img width="4281" height="1605" alt="factorial_macro_f1" src="https://github.com/user-attachments/assets/26f17a6f-0693-4e42-96d7-3d46c827ff41" />
 <br><sub>Complete 2×2 factorial</sub>
 <br><br>
-
-<img width="7168" alt="Model panel" src="https://github.com/user-attachments/assets/bfd059fa-1559-403d-93e0-328ce5ddc80d" />
+<img width="4279" height="2223" alt="fig_leaderboard_reversal" src="https://github.com/user-attachments/assets/7f61990e-e46c-4f13-b3d5-9b0fa4bf8eaf" />
+<br><sub>Rank change between the clean (0,0) and fully shifted (1,1) cells (Kendall τ = 0.76, 95% CI [0.66, 0.86]). The small changes suggest practical ties, not a robust reversal.</sub>
+<img width="7168" height="2555" alt="fig_model_panel_macro_f1" src="https://github.com/user-attachments/assets/608533e0-1f7f-4c73-acf6-5ed01b239c9e" />
 <br><sub>Macro-F1 across all ten arms</sub>
 <br><br>
 
-<img width="2318" alt="Robustness curve" src="https://github.com/user-attachments/assets/723e7364-4942-48d4-bbca-4547b972f98c" />
+<img width="2318" height="1834" alt="fig_robustness_curve" src="https://github.com/user-attachments/assets/860028c5-1b6f-442e-a34d-9fae9f513b62" />
 <br><sub>Robustness to intervention strength: φ_protocol rises with noise scale, φ_content stays near zero</sub>
 <br><br>
 
-<img width="4281" alt="Shapley contributions" src="https://github.com/user-attachments/assets/46300778-9ede-4e87-991f-bcb38b82765d" />
+<img width="4281" height="3033" alt="shapley_contributions" src="https://github.com/user-attachments/assets/f9390eae-8676-41fb-ad0a-e26abaf5c34f" />
 <br><sub>Shapley contributions</sub>
 <br><br>
 
-<img width="4279" alt="Leaderboard stability" src="https://github.com/user-attachments/assets/90580527-6cd8-4b58-86bb-bd6312c5d744" />
-<br><sub>Rank change between the clean (0,0) and fully shifted (1,1) cells (Kendall τ = 0.76, 95% CI [0.66, 0.86]). The small changes suggest practical ties, not a robust reversal.</sub>
+
 
 </div>
 </details>
@@ -188,19 +188,22 @@ assert (SHAPLEY.query("model == 'LLM_ZEROSHOT'")["phi_protocol"] == 0.0).all()  
 The paper is under review. Until it is published, please cite the dataset:
 
 ```bibtex
-@dataset{tuhin2026youtubebn,
-  author    = {Tuhin, Ashabul Yamin},
-  title     = {YouTube-BN: A Bangla Social-Media Comment Corpus},
-  year      = {2026},
-  publisher = {Zenodo},
-  doi       = {10.5281/zenodo.21848661}
+@dataset{tuhin_2026_21848661,
+  author       = {Tuhin, Ashabul Yamin Tuhin},
+  title        = {YouTube-BN},
+  month        = aug,
+  year         = 2026,
+  publisher    = {Zenodo},
+  version      = {1.0.0},
+  doi          = {10.5281/zenodo.21848661},
+  url          = {https://doi.org/10.5281/zenodo.21848661},
 }
 ```
 
 ## Author
 
 **Ashabul Yamin Tuhin**, Department of CSE, International Islamic University Chittagong, Bangladesh
-✉️ c233188@ugrad.iiuc.ac.bd
+ c233188@ugrad.iiuc.ac.bd
 
 ## Ethics
 
